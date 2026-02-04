@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penghapusan Akun & Data - Anwarul Bayan</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 720px; margin: 0 auto; padding: 24px; color: #333; }
+    h1 { font-size: 1.5rem; border-bottom: 2px solid #706353; padding-bottom: 8px; }
+    h2 { font-size: 1.15rem; margin-top: 24px; color: #3C3329; }
+    p { margin: 12px 0; }
+    ul { margin: 8px 0; padding-left: 24px; }
+    ol { margin: 8px 0; padding-left: 24px; }
+    .updated { color: #666; font-size: 0.9rem; }
+    a { color: #706353; }
+    .highlight { background: #f5f0eb; padding: 12px; border-radius: 8px; margin: 16px 0; }
+  </style>
+</head>
+<body>
+  <h1>Penghapusan Akun & Data — Anwarul Bayan</h1>
+  <p class="updated">Terakhir diperbarui: 16 Sya'ban 1447 Hijriyah</p>
+
+  <p><strong>Anwarul Bayan</strong> adalah aplikasi yang dikembangkan untuk membantu pengguna dalam ibadah harian. Halaman ini menjelaskan cara meminta penghapusan akun dan data terkait Anda.</p>
+
+  <h2>Langkah-langkah Meminta Penghapusan Akun</h2>
+  <ol>
+    <li>Kirim email ke <strong>anwarulbayan.id@gmail.com</strong> dengan subjek: <em>Permintaan Penghapusan Akun</em></li>
+    <li>Sertakan alamat <strong>email Google</strong> yang Anda gunakan untuk login di aplikasi Anwarul Bayan</li>
+    <li>Kami akan memverifikasi identitas Anda dan memproses permintaan dalam waktu <strong>maksimal 30 hari kerja</strong></li>
+    <li>Anda akan menerima konfirmasi setelah akun dan data terkait berhasil dihapus</li>
+  </ol>
+
+  <h2>Data yang Dihapus</h2>
+  <p>Setelah permintaan diproses, kami akan menghapus:</p>
+  <ul>
+    <li><strong>Akun Firebase Auth:</strong> email, nama, foto profil yang terhubung dengan login Google</li>
+    <li><strong>Dokumen pengguna di Firestore:</strong> data profil, role, dan metadata terkait</li>
+    <li><strong>Cache lokal (jika Anda mengirim perangkat):</strong> data aktivitas ibadah, preferensi, dan tugas kustom yang tersimpan di aplikasi</li>
+  </ul>
+
+  <h2>Data yang Mungkin Disimpan</h2>
+  <ul>
+    <li><strong>Log server/analytics:</strong> data agregat atau anonim mungkin tetap ada untuk periode retensi standar (biasanya hingga 90 hari) untuk keperluan keamanan dan pemecahan masalah</li>
+    <li><strong>Backup:</strong> backup sistem mungkin menyimpan salinan data hingga siklus rotasi backup selesai (maksimal 90 hari)</li>
+  </ul>
+
+  <h2>Penghapusan Data Lokal (Tanpa Menghapus Akun)</h2>
+  <p>Jika Anda ingin menghapus data yang tersimpan di perangkat tanpa menghapus akun:</p>
+  <ul>
+    <li><strong>Logout:</strong> Buka Profil → Logout. Ini akan menghapus cache akun dari perangkat.</li>
+    <li><strong>Hapus data aplikasi:</strong> Di pengaturan perangkat (Android: Pengaturan → Aplikasi → Anwarul Bayan → Hapus data), Anda dapat menghapus semua data lokal aplikasi.</li>
+    <li><strong>Uninstall:</strong> Menghapus aplikasi akan menghapus semua data yang tersimpan di perangkat. Data di cloud (jika Anda pernah login) tetap ada hingga Anda meminta penghapusan akun melalui email.</li>
+  </ul>
+
+  <h2>Hubungi Kami</h2>
+  <p>Untuk pertanyaan tentang penghapusan data:</p>
+  <ul>
+    <li><strong>Email:</strong> anwarulbayan.id@gmail.com</li>
+    <li><strong>Aplikasi:</strong> Anwarul Bayan</li>
+    <li><strong>Developer:</strong> Sesuai yang tercantum di listingan Google Play Store</li>
+  </ul>
+
+  <p><a href="index.html">← Kembali ke Kebijakan Privasi</a></p>
+</body>
+</html>
